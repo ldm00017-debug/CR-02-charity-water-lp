@@ -49,7 +49,7 @@ section {
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  color: #fff7e1;                 /* White text for contrast */
+  color: #fff7e1;               
   text-align: center;          /* Center the text */
   padding: 60px 20px;          /* Add space above and below */
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
