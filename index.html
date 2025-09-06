@@ -70,15 +70,13 @@
       position: relative;
       color: white;
     }
-    
-/* ...existing code... */
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.15); /* Lighter overlay for better photo visibility */
-}
-/* ...existing code... */
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+    }
 
     .hero-content {
       position: relative;
@@ -139,4 +137,3 @@
 
 </body>
 </html>
-
