@@ -138,7 +138,7 @@
         .hero {
             position: relative;
             height: 80vh; /* Adjust height for a compelling view */
-            background-image: url('https://cdn2.dropmarkusercontent.com/52043/7d5b1cd3f04618d648509e97ec3296efea3306283c92d00b2ae71b307d190447/preview/7836_Ethiopia_2019_CG-.jpg?Expires=1757202864&Signature=Sb819xiH8TVH76s9HDz-hetdbSmb6quxtf0DqO1yRbFSSVTr1CMSke5LJ9NC2l9s-pleeuwCYxMgUBgLQ0ZAw2ufFCqeZmWbQBBBmbtMFvBN2Dhk7ImDvw5yc4cxEOznOz818ILKL~9Nz0yVVBsCEHZbeeDG0B6flai3qh4gkU~9OHV2WUUn2LTObETDdofXOzW9j1LzzWVDVbZDaftpXuW4gRobDPSLX8zMs01WdX8d5rxGaSFsGYwAjpWsqjAfNVEWeeqgTDgTWhNqUsYbpldmyl7UERZxeiYqmFav6IKpSxVDJFKZp9mWu1EDNmdbCFEd2fc0mrI~B0-418VueA__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
+            background-image: url('7836_Ethiopia_2019_CG-.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
