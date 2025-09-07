@@ -4,169 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charity Water</title>
-    <style>
-        /* General body styles */
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #f7f1e3; /* Brand beige color from design */
-            color: #333;
-        }
-
-        /* Header styles */
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.5rem 3rem;
-            background-color: #f7f1e3;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #333;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-        }
-        
-        /* Using a simple icon for the logo since an image was not provided */
-        .logo-icon {
-            font-size: 2rem;
-            line-height: 1;
-            color: #ffb100; /* Yellow water drop color */
-            margin-right: 0.5rem;
-        }
-
-        .nav-links {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-link a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .nav-link a:hover {
-            color: #ffb100;
-        }
-        
-        /* The GIVE button */
-        .give-button {
-            text-decoration: none;
-            background-color: #0c8a93; /* Brand blue color from design */
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 9999px; /* For a pill shape */
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: background-color 0.3s;
-        }
-
-        .give-button:hover {
-            background-color: #0b7278;
-        }
-
-        /* Hero section styles */
-        .hero {
-            position: relative;
-            height: 80vh; /* Adjust height for a compelling view */
-            background-image: url('https://dpmk.in/i/F6t3Fq3nWg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start; /* Align text to the left */
-            padding-left: 10%;
-        }
-
-        /* Dark overlay for text readability */
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
-        }
-        
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            color: white;
-            max-width: 40rem; /* Limit width for better readability */
-        }
-
-        .hero-title {
-            font-size: 3rem;
-            font-weight: bold;
-            margin: 0 0 1rem;
-            line-height: 1.2;
-        }
-
-        .hero-subtitle {
-            font-size: 1.25rem;
-            font-weight: 400;
-            margin: 0;
-            line-height: 1.5;
-        }
-
-        /* Simple responsiveness for smaller screens */
-        @media (max-width: 768px) {
-            .header {
-                flex-direction: column;
-                padding: 1rem;
-            }
-
-            .nav-links {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-                margin-top: 1rem;
-            }
-
-            .give-button {
-                margin-top: 1rem;
-            }
-            
-            .hero {
-                align-items: center;
-                padding-left: 0;
-                text-align: center;
-            }
-            
-            .hero-content {
-                max-width: 90%;
-            }
-
-            .hero-title {
-                font-size: 2rem;
-            }
-
-            .hero-subtitle {
-                font-size: 1rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header class="header">
         <a href="#" class="logo">
-            <span class="logo-icon">&#x26F2;</span> <!-- Unicode for water well, looks like a bucket with water. For the design, a bucket would be a good substitute-->
-            charity: water
+            <!-- Logo image cropped to hide top and bottom 20px -->
+            <div class="logo-crop">
+                <img class="logo-icon" src="https://paytaxeslater.com/wp-content/uploads/2018/05/CharityWater.jpg" alt="Charity Water Logo">
+            </div>
         </a>
         <ul class="nav-links">
             <li class="nav-link"><a href="#">ABOUT US</a></li>
@@ -180,7 +27,7 @@
 
     <div class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Your small gift makes a big impact</h1>
+            <p class="hero-title">Your small gift makes a big impact</p>
             <p class="hero-subtitle">We build clean water systems where they're needed most, ensuring safe water for all—and you'll see the change you made possible.</p>
         </div>
     </div>
